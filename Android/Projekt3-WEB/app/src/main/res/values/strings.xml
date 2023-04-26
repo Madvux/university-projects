@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Projekt_3</string>
+    <string name="adres">Adres</string>
+    <string name="rozmiar_pliku">Rozmiar pliku</string>
+    <string name="link_do_pliku">link do pliku</string>
+    <string name="typ_pliku">Typ pliku</string>
+    <string name="label_downloaded">Pobrano bajtów</string>
+    <string name="pobierz_plik">Pobierz plik</string>
+    <string name="pobierz_informacje">Pobierz informacje</string>
+    <string name="default_link">https://sabnzbd.org/tests/internetspeed/20MB.bin</string>
+    <string name="file_not_found">Nie znaleziono pliku</string>
+    <string name="file_is_encrypted">Plik zaszyfrowany, nie można odczytać</string>
+</resources>

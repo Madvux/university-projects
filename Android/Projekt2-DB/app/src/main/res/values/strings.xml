@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projekt_2</string>
+    <string name="producent">Producent</string>
+    <string name="model">Model</string>
+    <string name="add">Dodaj</string>
+    <string name="error_empty">Pole nie może być puste</string>
+    <string name="add_phone_title">Dodaj telefon</string>
+    <string name="main_db">Baza telefonów</string>
+    <string name="info_save">Zapisano</string>
+    <string name="action_failed">Akcja się nie powiodła</string>
+    <string name="info_update">Zaktualizowano</string>
+    <string name="edit_phone_title">Edytuj dane telefonu</string>
+    <string name="deleted">Usunięto</string>
+    <string name="wersja_android">Wersja android</string>
+    <string name="strona_www">Strona www</string>
+    <string name="default_producent">Google</string>
+    <string name="default_model">Pixel 2</string>
+    <string name="default_android_ver">10</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="default_www">www.google.pl</string>
+
+</resources>

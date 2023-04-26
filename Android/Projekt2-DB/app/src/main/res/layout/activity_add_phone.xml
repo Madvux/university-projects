@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="15dp"
+    tools:context=".AddEditPhoneActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/producent"></TextView>
+
+        <EditText
+            android:id="@+id/edit_text_producent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/default_producent"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/model"></TextView>
+
+        <EditText
+            android:id="@+id/edit_text_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/default_model"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wersja_android"></TextView>
+
+        <EditText
+            android:id="@+id/edit_text_android_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/default_android_ver"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strona_www"></TextView>
+
+        <EditText
+            android:id="@+id/edit_text_webpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/default_www"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_www"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/strona_www" />
+
+        <Button
+            android:id="@+id/button_abort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anuluj" />
+
+        <Button
+            android:id="@+id/button_save_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="2"
+            android:text="@string/zapisz" />
+    </TableRow>
+</TableLayout>

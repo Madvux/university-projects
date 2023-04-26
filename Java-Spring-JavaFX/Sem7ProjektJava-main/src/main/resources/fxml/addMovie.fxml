@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.projekt.zpwj.controller.AddMovieController">
+    <children>
+        <Label fx:id="test" layoutX="388.0" layoutY="54.0" text="Dodaj film" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="23.0" />
+            </font>
+        </Label>
+        <VBox layoutX="81.0" layoutY="35.0" spacing="20.0">
+            <children>
+                <TextField fx:id="title" promptText="Tytuł" />
+                <TextField fx:id="ogTitle" promptText="Tytuł oryginalny" />
+                <TextField fx:id="year" promptText="Rok wydania" />
+                <TextField fx:id="director" promptText="Reżyser" />
+                <TextField fx:id="posterLink" promptText="URL do plakatu" />
+                <TextField fx:id="rankingNumber" promptText="Numer w rankingu" />
+                <TextField fx:id="rating" promptText="Ocena (1-10)" />
+                <ChoiceBox fx:id="genres" accessibleRole="CHECK_BOX" prefWidth="150.0" />
+            </children>
+        </VBox>
+        <Button layoutX="337.0" layoutY="149.0" mnemonicParsing="false" onAction="#addMovieOnClick" prefHeight="25.0" prefWidth="214.0" style="-fx-background-color: green;" text="Dodaj" textFill="WHITE">
+            <font>
+                <Font name="Arial" size="21.0" />
+            </font>
+        </Button>
+
+        <Button fx:id="goBack" layoutX="337.0" layoutY="336.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="214.0" style="-fx-background-color: orange;" text="Wróć" textFill="WHITE">
+            <font>
+                <Font name="Arial" size="21.0" />
+            </font>
+        </Button>
+      <Label fx:id="validation" layoutX="335.0" layoutY="235.0" prefHeight="39.0" prefWidth="214.0" textFill="RED">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

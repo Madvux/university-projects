@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <View
+            android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/text_view_producent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/strut"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/producent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/text_view_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/strut"
+            android:layout_alignParentEnd="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/model"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
